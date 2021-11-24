@@ -15,4 +15,6 @@ function applyCustomJoin(arr, sep = '') {
 
 }
 
+// Testclear
+
 applyCustomJoin(args, symb);
