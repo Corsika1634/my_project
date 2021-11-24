@@ -15,6 +15,6 @@ function applyCustomJoin(arr, sep = '') {
 
 }
 
-// Testclear12345cogdgssgdks
+// And again
 
 applyCustomJoin(args, symb);
