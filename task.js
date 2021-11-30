@@ -1,20 +1,15 @@
+const user = prompt('Как вас зовут?', '');
+alert(`Привет, ${user}!`);
 
-const args = [null, null, 1, undefined, 0, 'null', NaN, ''];
-const symb = ',';
+// const result = confirm('Are you here?');
+// console.log(result);
 
-function applyCustomJoin(arr, sep = '') {
-  let result = '';
+// const answer = prompt('Вам есть 18?', '');
+// console.log(+(answer + 5));
 
-  for (let i = 0; i < arr.length - 1; i++) {
-        result += arr[i];
-        result += sep;
-  }
-  result += arr[arr.length - 1];
-  console.log(result);
-  return result;
+// const answers = [];
+// answers[0] = prompt('Ваше имя: ', '');
+// answers[1] = prompt('Ваша фамилия: ', '');
+// answers[2] = prompt('Сколько вам лет: ', '');
 
-}
-
-// And again
-
-applyCustomJoin(args, symb);
+// console.log(`Его фамилия: ${answers[1]}`);
